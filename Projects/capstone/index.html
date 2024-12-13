@@ -8,16 +8,16 @@
 </head>
 <body>
     <header>
-        <nav class="navbar">
-            <a class="heading">GrungePortfolio</a>
-            <a class="home items">Home</a>
-            <a class="portfolio items">Portfolio</a>
-            <a class="about items">About</a>
-            <a class="Contact items">Contact</a>
+        <nav class="navbar" id="navbar">
+            <a class="heading" href="#navbar">GrungePortfolio</a>
+            <a class="home items" href="#home">Home</a>
+            <a class="portfolio items" href="#portfolio">Portfolio</a>
+            <a class="about items" href="#about">About</a>
+            <a class="Contact items" href="#footer">Contact</a>
         </nav>
     </header>
     <hr id="hr1">
-    <div class="main">
+    <div class="main" id="home">
         <div class="main-heading">
             <p id="raw">Raw. Unrefined.</p>
             <p id="rebel">Rebellios.</p>
@@ -26,7 +26,7 @@
         <img class="main-image" src="https://s3-alpha-sig.figma.com/img/1780/896a/073673fac0f0a9b83ba52aecafcb113a?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=i0RQJvgNace5emJCT~w9CdjJ4Wacg5n8wPZK3PWYUZqHQ9m3zD7m61zhEWezwbC5sJJb7AUsgspJe7028gmrlYfQvypK5Zm-7lhKfRw4VhaBljevGvMIqZ0CptSf5CGThU34PznsoFb2cNar1xn0jCNYtE8Qxops7p83kpyPDDLY~bTOP9t0caUPpS9YY5I2oQ--zb0ZfHuCs~V2sViDahQgYoEzGVLWIiJfzFHo-ebc8TS~mG6WcRfhUPjvFYx4LiUjLndCM4QuDuXWgwIwzLeBOfAJquYwW5ADM4mbpomM3rPGdN~eA6FiEihVEPqvqKmo~FqEgeVPKxnaK3UCOw__"/>
     </div>
 
-    <div class="grid">
+    <div class="grid" id="portfolio">
         <div>
             <img src="https://s3-alpha-sig.figma.com/img/b4ca/3ddf/d74bbab587c7ec926d40f8713103432d?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=qCnACyvdJxw-qH8qOWRTCA9lBDpO8WPUdMETB7Nj2PrOp8C6huEJZH~qjRhSkDTKHdye~gyDq0va0dBXb~bFAm0dU~0yVidLO8lBIc3NogH7HVt6Mi3-lFIUWW2g2xMTLJ1W-BMWUaBTimPz3xdRkaG9u5XdCNLu23qOJ~u3DzyeYoaA8jKf~p5L-M5AJ9BfDPwsIXL8IZJPtLIEcbEgxi1pOBb-FcyKskQ6hUDdieU7x-6qPMsj9Tkm05SEEIJwvTc-ghtFpRYZz4s5tnFgoGz4uozQFV9Ul0tpI7iYgdNyb1BB0TdZAMP2CyhLK2x99cv3a6wSa5PF5qQrfdReNg__"/>
             <p class="h">Urban Decay</p>
@@ -73,26 +73,26 @@
             <p class="u">Mixed Media</p>
         </div>
     </div>
-    <div>
-        <form class="form">
+    <div id="about">
+        <div class="form-container">
+            <form class="form">
                 <p id="get">Get in Touch</p>
                 <p id="get-lower">We'd love to hear from you!</p>
                 <div class="row">
                     <input placeholder="First Name" type="text" id="first-name"/>
                     <input placeholder="Last Name" type="text" id="last-name"/>
                 </div>
-                <br>
                 <div class="em">
                     <input placeholder="Email" type="email" id="email"/>
                 </div>
-                <br>
                 <div class="inputs">
                     <textarea placeholder="Placeholder" id="placeholder"></textarea>
                 </div>
                 <div class="sub">
-                    <button type="submit" id="submit">Button</button>
+                    <button type="submit" id="submit">Submit</button>
                 </div>
-        </form>
+            </form>
+        </div>
         <hr id="hr2">
     </div>
     <div class="lower">
@@ -102,12 +102,12 @@
             <button id="subscribe"><span>Subscribe</span></button>
         </div>
         <div class="social">
-            <img src="https://img.icons8.com/?size=100&id=8818&format=png&color=000000" id="facebook"/>
-            <img src="https://img.icons8.com/?size=100&id=48841&format=png&color=000000" id="instagram"/>
-            <img src="https://img.icons8.com/?size=100&id=fJp7hepMryiw&format=png&color=000000" id="x"/>
+            <a href="https://www.facebook.com/"><img src="https://img.icons8.com/?size=100&id=8818&format=png&color=000000" id="facebook"/></a>
+            <a href="https://www.instagram.com/"><img src="https://img.icons8.com/?size=100&id=48841&format=png&color=000000" id="instagram"/></a>
+            <a href="https://www.x.com/"><img src="https://img.icons8.com/?size=100&id=fJp7hepMryiw&format=png&color=000000" id="x"/></a>
         </div>
     </div>
-    <footer>
+    <footer id="footer">
         <p id="left">2023 GrungePortfolio</p>
         <button id="contact-me"><span>Contact Me</span></button>
     </footer>
