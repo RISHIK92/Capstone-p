@@ -111,6 +111,9 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    padding: 1rem;
+    height: auto;
+    margin: 1rem auto;
 }
 
 .form {
@@ -119,9 +122,10 @@ body {
     justify-content: center;
     align-items: center;
     background-color: white;
-    padding: 2rem;
+    padding: 0rem;
     width: 100%;
-    max-width: 41rem; 
+    max-width: 41rem;
+    margin: 0;
 }
 
 .row {
