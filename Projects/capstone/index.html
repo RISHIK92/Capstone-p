@@ -4,10 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <meta name="viewport">
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
 </head>
 <body>
-    <header>
+    <header class="hidden">
+        <nav class="navbar" id="navbar">
+            <a class="heading menuItem" href="#navbar">GrungePortfolio</a>
+            <ul class="menu">
+                <li><a class="home items menuItem" href="#home">Home</a></li>
+                <li><a class="portfolio items menuItem" href="#portfolio">Portfolio</a></li>
+                <li><a class="about items menuItem" href="#about">About</a></li>
+                <li><a class="Contact items menuItem" href="#footer">Contact</a></li>
+            </ul>
+            <button class="hamburger">
+                <i class="menuIcon material-icons">menu</i>
+                <i class="closeIcon material-icons">close</i>
+            </button>
+        </nav>
+    </header>
+    <header class="show">
         <nav class="navbar" id="navbar">
             <a class="heading" href="#navbar">GrungePortfolio</a>
             <a class="home items" href="#home">Home</a>
@@ -111,5 +129,6 @@
         <p id="left">2023 GrungePortfolio</p>
         <button id="contact-me"><span>Contact Me</span></button>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
