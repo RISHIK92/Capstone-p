@@ -384,7 +384,7 @@ footer {
         z-index: 100;
         top: 1rem;
         right: 1rem;
-        padding: 4px;
+        padding: 0.25rem;
         border: 1px solid black;
         background: white;
         cursor: pointer;
@@ -430,26 +430,8 @@ footer {
         font-size: 2rem;
         margin-bottom: 1rem;
     }
-    .heading {
-        font-size: 1.5rem;
-        font-weight: 100;
-        margin-right: auto;
-        padding-left: 1rem;
-        padding-top: 0.4rem;
-    }
-    .items {
-        font-size: 1rem;
-        margin-left: 1rem;
-        padding-left: 1rem;
-        padding-top: 1.4rem;
-        line-height: 1.2;
-        padding-right: 1rem;
-    }
     .grid {
         grid-template-columns: 1fr;
-    }
-    #subscribe{
-        margin-top: 1rem;
     }
 }
 @media (max-width: 458px) {
@@ -469,7 +451,7 @@ footer {
         margin-bottom: 1rem;
     }
     .heading {
-        font-size: 1.2rem;
+        font-size: 1.5rem;
         font-weight: 100;
         padding-top: 0.4rem;
     }
@@ -482,12 +464,27 @@ footer {
         justify-content: center;
         align-items: center;
     }
+    .hamburger {
+        position: fixed;
+        z-index: 100;
+        top: 0.5rem;
+        right: 0.5rem;
+        padding: 0.25rem;
+        border: 1px solid black;
+        background: white;
+        cursor: pointer;
+        height: 2rem;
+    }
 }
-@media (max-width: 272px) {
+@media (max-width: 290px) {
     #left {
         margin-top: 10rem;
         margin-left: 1rem;
         font-size: 1rem;
+    }
+    .heading {
+        font-size: 1.1rem;
+        z-index: 100;
     }
     #contact-me {
         cursor: pointer;
@@ -500,5 +497,15 @@ footer {
         margin-right: 1rem;
         margin-bottom: 1rem;
     }
-    
+    .hamburger {
+        position: fixed;
+        z-index: 100;
+        top: 0.25rem;
+        right: 0.5rem;
+        padding: 0.25rem;
+        border: 1px solid black;
+        background: white;
+        cursor: pointer;
+        height: 2rem;
+    }
 }
